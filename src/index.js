@@ -47,5 +47,4 @@ const App = (props) => {
     </Router>
   );
 };
-
 ReactDOM.render(<App />, document.getElementById('main'));

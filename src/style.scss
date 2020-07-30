@@ -1,8 +1,9 @@
-body, html {
-  font-family: "Roboto", sans-serif;
-  height: 100%;
-}
+$fontcolor:  rgb(10%, 10%, 10%);
+$backgroundcolor: rgb(98%, 98%, 98%);
 
+body {
+  font-family: "Roboto", sans-serif;
+}
 .active {
   color: pink;
 }

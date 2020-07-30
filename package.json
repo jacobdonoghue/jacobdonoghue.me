@@ -10,7 +10,7 @@
     "test": "eslint src/**.js",
     "build": "yarn clean; NODE_ENV=production webpack --colors",
     "clean": "rimraf dist",
-    "deploy": "yarn build; surge -p dist -d jdonoghue-cs52-starter.surge.sh; yarn clean"
+    "deploy": "yarn build; surge -p dist -d jdonoghue-cs52-starterpack.surge.sh; yarn clean"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
@@ -49,5 +49,6 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "switch": "^0.0.0"
+
   }
 }
