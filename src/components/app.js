@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import '../style.scss';
 import {
   BrowserRouter as Router, Switch, Route, NavLink,
@@ -71,6 +70,4 @@ const App = (props) => {
     </Router>
   );
 };
-
-ReactDOM.render(<App />, document.getElementById('main'));
 export default App;
