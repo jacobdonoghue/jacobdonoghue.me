@@ -1,0 +1,16 @@
+html{
+    font-family: 'Light 300', sans-serif;
+    background-color: #ECF0F1;
+}
+h1{
+    background-color: rgb(255, 255, 255);
+}
+img{
+    width:30%;
+    height:80%;
+    border: 10px;
+}
+.container{
+    display:flex;
+    justify-content:center;
+}
