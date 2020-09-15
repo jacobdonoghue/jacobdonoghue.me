@@ -1,23 +1,336 @@
-<!DOCTYPE html>
 <html>
+  <title>Jacob Donoghue</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <head>
-    <title>Jacob Donoghue</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0de7f88f60.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="java.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   </head>
   <body>
-    <div id="main">
-        <nav class="nav">
-            <ul>
-                <li>Experience</li>
-                <li>Portfolio</li>
-                <li>Resume</li>
+    <div class="nav">
+      <ul class="nav-list">
+        <li class="nav-element" id="about">Jacob Donoghue</li>
+        <li class="nav-element" id="experience">Experience</li>
+        <li class="nav-element" id="portfolio">Projects</li> 
+        <li class="nav-element" id="contact">Contact info</li>
+      </ul>
+      <div class="greeting">
+        <div>Hi, I'm Jacob</div>
+        <div class="greeting-2">Let's get to know each other a little better</div>
+        <div class="fake-button">About me</div>
+      </div>
+    </div>
+    <!----- Attempted Slideshow images>
+    <div class="intro" id="intro-div">
+      <div class="slideshow-container">
+        <div class="slide">
+          <div class="numbertext">1 / 3</div>
+          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/jacob+copy.jpg">
+          <div class="text">Caption Text</div>
+        </div>
+        <div class="slide">
+          <div class="numbertext">2 / 3</div>
+          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/kolchuk.jpeg">
+          <div class="text">Caption Text</div>
+        </div>
+        <div class="slide">
+          <div class="numbertext">3 / 3</div>
+          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/aires.jpeg">
+          <div class="text">Caption Text</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div --->
+    <div class="intro" id="intro-div">
+      <ul class="intro-images">
+        <!--li class="im-container">
+          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/boys.jpeg">
+        </li -->
+        <li class="im-container">
+          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/kolchuk.jpeg">
+        </li>
+        <li class="im-container">
+          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/profpic.jpeg">
+        </li>
+        <li class="im-container">
+          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/marshallssunset.jpeg">
+        </li>
+        <!--li class="im-container">
+          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/aires.jpeg">
+        </li-->
+        <!-- li class="im-container">
+         <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/spidermeadows.jpeg">
+        </li>
+        <li class="im-container">
+          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/carousel.jpeg">
+        </li -->
+      </ul>
+      <div class="intro-text">
+          <div class="bio"> 
+            I'm a rising junior at <span id="green">Dartmouth College</span> studying <span id="blue">Computer Science</span> and <span id="bold">Government</span>. As a solutions-oriented person, I enjoy tackling issues from a variety of directions. 
+            I'm particularly interested in creating software that impacts and/or informs public policy and education. 
+            I'm currently embarking on a gap year from Dartmouth to explore career opportunities, so I'm currently looking for internships for Winter-Summer 2021 and would love to get in touch with any potential employer!
+          </div>
+      </div>
+      <div id="arrows"><i class="fas fa-angle-double-down"></i></div>
+    </div>
+    <div>
+    <div class="experience" id="experience-div">
+        <div id="experience-title">
+          Experience
+        </div>
+        <div class="experience-container">
+          <div class="experience-section" id="languages-section"> 
+            <div class="experience-header">
+              Languages
+            </div>
+            <ul class="languages">
+              <li>Python</li>
+              <li>Java</li>
+              <li>C</li>
+              <li>R</li>
+              <li>Matlab</li>
+              <li>Bash</li>
+              <li>Javascript</li>
+              <li>HTML</li>
+              <li>CSS</li>
             </ul>
-        </nav>
-        <header>Jacob Donoghue</header>
-        <div> Bio </div>
-        <div> Projects </div>
+          </div>
+          <div class="experience-section" id="work-section"> 
+            <div class="experience-header">
+              Work Experience
+            </div>
+            <ul>
+              <li>Incoming software engineering intern at Beepboop</li>
+              <li>Computer Science Tutor at Dartmouth</li>
+            </ul>
+          </div>
+          <div class="experience-section" id="coursework-section"> 
+            <div class="experience-header">
+              Coursework
+            </div>
+            <div class="gpa">
+              <div> Cumulative GPA: 3.84</div>
+              <div>In-major GPA: 4.0</div>
+            </div>
+            <ul class="coursework">
+              <li>Introduction to Computer Science</li>
+              <li>Object Oriented Programming</li>
+              <li>Discrete Probability</li>
+              <li>Foundations of Applied Computer Science</li>
+              <li>Software Design and Implementation</li>
+              <li>Full Stack Web Development *</li>
+            </ul>
+            <div class="asterisk">
+              <div>* Citation for academic excellence</div>
+            </div>
+          </div>
+          <div class="experience-section" id="resume-section"> 
+            <div class="experience-header">
+              Resume
+            </div>
+            <div class="experience-content">
+              <a id="download" href="https://jdonoghue-personal.s3.amazonaws.com/Donoghue+Resume.pdf" download="Donoghue-Resume"><i class="fas fa-download"></i></a>
+            </div>
+          </div>
+    </div>
+    <div class="portfolio" id="portfolio-div">
+      <div class="portfolio-title" id="portfolio-title">
+        Recent Projects
+      </div>
+      <div class="portfolio-container">
+        <div class="portfolio-section" id="aptitune">
+          <div class="portfolio-header">
+            Aptitune
+          </div>
+        </div>
+        <div class="portfolio-section" id="covid">
+          <div class="portfolio-header">
+            COVID Simulation
+          </div>
+        </div>
+        <div class="portfolio-section" id="sudoku">
+          <div class="portfolio-header">
+            Sudoku
+          </div>
+        </div>
+        <div class="portfolio-section" id="search-engine">
+          <div class="portfolio-header">
+            Search Engine
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!---- MODALS FOR PROJECTS-->
+    <div class="modal" id="aptitune-modal">
+      <div class="modal-body" id="aptitune-body">
+        <div class="x-out"><i class="fas fa-times"></i></div>
+        <div class="modal-main">
+          <div class="modal-header">
+            Aptitune
+          </div>
+          <div class="modal-content">
+            <div class="modal-content-text">
+              Learning music is hard -- and learning music online even more so. 
+              Out of subjects that transfer to an online setting naturally, music is close to, if not at the very bottom of the list. 
+              I, along with 5 other Dartmouth Students, decided to create an online music-education platform to fill this gap. 
+              In only three weeks, the Aptitune team built the Aptitune prototype from the ground up using React-Redux on the front end and Node.js coupled with MongoDB and Heroku server-hosting on the backend. 
+              Features include:
+              <ul>
+                <li>Interactive lessons with sightreading, rhythm-matching, listening, and sight-singing exercises to promote active learning</li>
+                <li>Assessment tools and personalized feedback</li>
+                <li>Achievements</li>
+                <li>A fun and game-like interface</li>
+              </ul> 
+              Aptitune began as a school project, but it won't end there... stay tuned for more!
+              In the meantime, you can check out the deployed prototype and its code on github by clicking the icons below.
+            </div>
+          </div>
+          <div class="modal-links"> 
+            <div>
+              <a class="link" id="aptitune-link" href="https://aptitune.surge.sh" target="_blank">
+                <i class="fas fa-link"></i>
+              </a>
+            </div>
+            <div id="aptitune-link" class="link">
+              <a class="link" id="aptitune-link" href="https://github.com/dartmouth-cs52-20X/project-aptitune" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="covid-modal">
+      <div class="modal-body" id="covid-body">
+        <div class="x-out"><i class="fas fa-times"></i></div>
+        <div class="modal-main">
+          <div class="modal-header">
+            COVID Simulation
+          </div>
+          <div class="modal-content">
+            <div class="modal-content-text">
+              Understanding the spread and containment of infectious diseases is more important than ever. 
+              While quarantining at home this past spring, I created a SIR model of infectious disease spread in Java specifically geared toward modeling how different containment measures, such as wearing masks and social distancing, affect the spread of the disease. 
+              Specifically, I wanted to assess the effectiveness of social distancing given varying levels of:
+              <ul>
+                <li>Participation -- What proportion of the population engages in social distancing? </li>
+                <li>Intensity -- How much do social distancing measures affect a healthy person's likelihood of infection when in close quarters with someone infected with the virus.</li>
+                <li>Response time -- At what level of infection (as a percent of the population) are social distancing measures engaged?</li>
+                <li>Re-opening -- When are social distancing measures are lifted?</li>
+              </ul>
+              Because the simulation relies on random number generation, results were obtained by running the simulation numerous times under each set of parameters and then averaged before analyzing results.
+              Before introducing the main conclusions, I must note that the simulation offered a vastly simplified version of disease spread, and its results are not necessarily applicable to more complex systems. 
+              With that said, its results shed light as how variation in the aspects of social distancing noted above would likely affect infection levels in a more complex environment.
+              In analyzing the results, I found that, unsurprisingly:
+              <ul>
+                <li>Social distancing precautions work to decrease infection levels</li>
+                <li>Given the exponential nature of disease growth, the earlier and more intense the precautions are, the more effective they will be in stemming the disease.</li>
+                <li>Ending social distancing early leads to a resurgence in infection</li>
+              </ul>
+              Interestingly: 
+              <ul>
+                <li>Participation in uniform social distancing measures appeared to have a greater effect on disease spread than intensity of these measures</li>
+                <li>Baseline adoption of precautions is only marginally helpful: each additional precaution taken offers increasingly greater potential to decrease the scope of infection.</li>
+              </ul>
+              For anyone interested in reading more about the structure, methodology, and results of the study, I attached my paper and code below.
+            </div>
+          </div>
+          <div class="modal-links"> 
+            <div>
+              <a class="link" id="covid-link" href="https://jdonoghue-personal.s3.amazonaws.com/Covid-Simulation-Donoghue.pdf" target="_blank">
+                <i class="fas fa-paperclip"></i>
+              </a>
+            </div>
+            <div id="covid-link" class="link">
+              <a class="link" id="aptitune-link" href="https://github.com/jacobdonoghue/covid-simulation" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="sudoku-modal">
+      <div class="modal-body" id="sudoku-body">
+        <div class="x-out"><i class="fas fa-times"></i></div>
+        <div class="modal-main">
+          <div class="modal-header">
+            Sudoku
+          </div>
+          <div class="modal-content">
+            <p class="modal-content-text">
+              This summer, a group of other Dartmouth students and I teamed up to create a sudoku game that could both solve and generate unique sudoku puzzles.
+              We used a backtracking (depth-first-search) algorithm to solve any given puzzle, systematically checking every possibiltiy until a solution is found.
+              To generate puzzles, our algorithm generates a grid filled with random entries and adds numbers until there is only one solution. 
+              While using backtracking algorithms are guaranteed to succeed, it can have an extremely slow runtime for problem puzzles -- O(9^(n*n)) where n is the number of boxes per side -- so much of the challenge lay in optimizing our backtracking to be more intelligent in selecting the next number to add.
+              Within my group, I took an organizational leadership role while also coding the backtracking and generation algorithms and creating the GUI in python.
+            </p>
+            <p>
+              Because the program was created as a final project for a class at Dartmouth, I cannot post my code publicly online. If you'd like to take a look, shoot me an email at jacob.l.donoghue.22@dartmouth.edu and I'd be happy to share it!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="search-modal">
+      <div class="modal-body" id="search-body">
+        <div class="x-out"><i class="fas fa-times"></i></div>
+        <div class="modal-main">
+          <div class="modal-header">
+            Search Engine
+          </div>
+          <div class="modal-content">
+            <p class="modal-content-text">
+              This summer, I created a search-engine in C that searches the website for Dartmouth's CS50 course.
+              The algorithm is composed of three parts:
+              <ul>
+                <li>Crawler <span><i class="fas fa-arrow-right"></i></span> crawls every page up to a given degree of removal from the seed page, and stores their URL and HTML source code in a local server</li>
+                <li>Indexer <span><i class="fas fa-arrow-right"></i></span> goes through every page found by the crawler, parses the HTML, counts the frequency of every word in every document, and write the 'index' into a file</li>
+                <li>Querier <span><i class="fas fa-arrow-right"></i></span> reads in search input from the commandline, searches the index for the user-inputted terms, and ranks all documents by the frequency of search terms </li>
+              </ul>
+            </p>
+            <p>
+              Because the program was created in part of a frequently-taken class at Dartmouth, I cannot post my code publicly online. If you'd like to take a look, shoot me an email at jacob.l.donoghue.22@dartmouth.edu and I'd be happy to share it!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact" id="contact-div">
+      <div class="contact-message">
+        <div> Currently seeking positions for Winter-Summer 2021</div>
+        <div id="intouch">Let's get in touch</div>
+      </div>
+      <div class="contact-icons">
+        <div> 
+          <a id="contact-icon" href="mailto:jacob.l.donoghue.22@dartmouth.edu" target="_blank">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <div>
+          <a id="contact-icon" href="https://www.linkedin.com/in/jacob-donoghue-809585164"target="_blank"> 
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <div>
+          <a id="contact-icon" href="https://github.com/jacobdonoghue" target="_blank">
+            <i class="fab fa-github"></i>
+           </a>
+        </div>
+
+      </div>
+      <div class="copyright"> &#169; Jacob Donoghue 2020</div>
     </div>
   </body>
 </html>
