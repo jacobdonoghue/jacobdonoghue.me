@@ -24,38 +24,8 @@
         <div class="fake-button">About me</div>
       </div>
     </div>
-    <!----- Attempted Slideshow images>
-    <div class="intro" id="intro-div">
-      <div class="slideshow-container">
-        <div class="slide">
-          <div class="numbertext">1 / 3</div>
-          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/jacob+copy.jpg">
-          <div class="text">Caption Text</div>
-        </div>
-        <div class="slide">
-          <div class="numbertext">2 / 3</div>
-          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/kolchuk.jpeg">
-          <div class="text">Caption Text</div>
-        </div>
-        <div class="slide">
-          <div class="numbertext">3 / 3</div>
-          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/aires.jpeg">
-          <div class="text">Caption Text</div>
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span> 
-      </div --->
     <div class="intro" id="intro-div">
       <ul class="intro-images">
-        <!--li class="im-container">
-          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/boys.jpeg">
-        </li -->
         <li class="im-container">
           <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/kolchuk.jpeg">
         </li>
@@ -65,15 +35,6 @@
         <li class="im-container">
           <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/marshallssunset.jpeg">
         </li>
-        <!--li class="im-container">
-          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/aires.jpeg">
-        </li-->
-        <!-- li class="im-container">
-         <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/spidermeadows.jpeg">
-        </li>
-        <li class="im-container">
-          <img class="intro-im" src="https://jdonoghue-personal.s3.amazonaws.com/carousel.jpeg">
-        </li -->
       </ul>
       <div class="intro-text">
           <div class="bio"> 
@@ -84,66 +45,67 @@
       </div>
       <div id="arrows"><i class="fas fa-angle-double-down"></i></div>
     </div>
-    <div>
     <div class="experience" id="experience-div">
-        <div id="experience-title">
-          Experience
+      <div id="experience-title">
+        Experience
+      </div>
+      <div class="experience-container">
+        <div class="experience-section" id="languages-section"> 
+          <div class="experience-header">
+            Languages
+          </div>
+          <ul class="languages">
+            <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>R</li>
+            <li>Matlab</li>
+            <li>Bash</li>
+            <li>Javascript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
         </div>
-        <div class="experience-container">
-          <div class="experience-section" id="languages-section"> 
-            <div class="experience-header">
-              Languages
-            </div>
-            <ul class="languages">
-              <li>Python</li>
-              <li>Java</li>
-              <li>C</li>
-              <li>R</li>
-              <li>Matlab</li>
-              <li>Bash</li>
-              <li>Javascript</li>
-              <li>HTML</li>
-              <li>CSS</li>
-            </ul>
+        <div class="experience-section" id="work-section"> 
+          <div class="experience-header">
+            Work Experience
           </div>
-          <div class="experience-section" id="work-section"> 
-            <div class="experience-header">
-              Work Experience
-            </div>
-            <ul>
-              <li>Incoming software engineering intern at Beepboop</li>
-              <li>Computer Science Tutor at Dartmouth</li>
-            </ul>
+          <ul>
+            <li>Incoming software engineering intern at Beepboop</li>
+            <li>Computer Science Tutor at Dartmouth</li>
+          </ul>
+        </div>
+        <div class="experience-section" id="coursework-section"> 
+          <div class="experience-header">
+            Coursework
           </div>
-          <div class="experience-section" id="coursework-section"> 
-            <div class="experience-header">
-              Coursework
-            </div>
-            <div class="gpa">
-              <div> Cumulative GPA: 3.84</div>
-              <div>In-major GPA: 4.0</div>
-            </div>
-            <ul class="coursework">
-              <li>Introduction to Computer Science</li>
-              <li>Object Oriented Programming</li>
-              <li>Discrete Probability</li>
-              <li>Foundations of Applied Computer Science</li>
-              <li>Software Design and Implementation</li>
-              <li>Full Stack Web Development *</li>
-            </ul>
-            <div class="asterisk">
-              <div>* Citation for academic excellence</div>
-            </div>
+          <div class="gpa">
+            <div> Cumulative GPA: 3.84</div>
+            <div>In-major GPA: 4.0</div>
           </div>
-          <div class="experience-section" id="resume-section"> 
-            <div class="experience-header">
-              Resume
-            </div>
-            <div class="experience-content">
-              <a id="download" href="https://jdonoghue-personal.s3.amazonaws.com/Donoghue+Resume.pdf" download="Donoghue-Resume"><i class="fas fa-download"></i></a>
-            </div>
+          <ul class="coursework">
+            <li>Introduction to Computer Science</li>
+            <li>Object Oriented Programming</li>
+            <li>Discrete Probability</li>
+            <li>Foundations of Applied Computer Science</li>
+            <li>Software Design and Implementation</li>
+            <li>Full Stack Web Development *</li>
+          </ul>
+          <div class="asterisk">
+            <div>* Citation for academic excellence</div>
           </div>
+        </div>
+        <div class="experience-section" id="resume-section"> 
+          <div class="experience-header">
+            Resume
+          </div>
+          <div class="experience-content">
+            <a id="download" href="https://jdonoghue-personal.s3.amazonaws.com/Donoghue+Resume.pdf" download="Donoghue-Resume"><i class="fas fa-download"></i></a>
+          </div>
+        </div>
+      </div>
     </div>
+
     <div class="portfolio" id="portfolio-div">
       <div class="portfolio-title" id="portfolio-title">
         Recent Projects
@@ -328,7 +290,6 @@
             <i class="fab fa-github"></i>
            </a>
         </div>
-
       </div>
       <div class="copyright"> &#169; Jacob Donoghue 2020</div>
     </div>
