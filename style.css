@@ -18,18 +18,6 @@ body {
     overflow-x: hidden;
 }
 
-/*.portfolio{
-    display: none;
-}
-.contact{
-    display: none;
-}
-
-.experience{
-    display: none;
-}*/
-
-
 /******** nav bar ********/
 .nav{
     line-height: 10vh;
@@ -80,7 +68,8 @@ body {
 }
 
 .fake-button{
-    font-size: 0.2em;
+    font-size: 0.35em;
+    white-space: nowrap;
     border: 1px solid white;
     margin-left: 40vw;
     margin-right: 40vw;
@@ -238,7 +227,6 @@ body {
     padding-left: 2vw;
     padding-right: 2vw;
     width: 35vw;
-    max-height: 31vh;
     margin: 5vh 5vw;
 }
 
@@ -339,10 +327,21 @@ body {
     height: 100%;
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.6);
-    line-height: 30vh;
-    text-align: center;
     font-size: 3.4em;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.word1{
+    margin-right: 0.5vw;
+}
+
+.word2{
+    margin-left: 0.5vw;
 }
 
 .portfolio-header:hover{
