@@ -573,6 +573,16 @@ body {
     text-align: center;
 }
 
+.disclaimers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photos{
+    font-size: 0.8em;
+}
 @media only screen and (max-width: 640px){
     html{
         font-size: 2vw;

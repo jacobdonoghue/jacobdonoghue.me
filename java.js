@@ -70,11 +70,3 @@ window.onload=function(){
         $("#search-modal").css("display","none");
     });
 }
-
-hide = () => {
-    /*console.log('clicked');
-    $(".about").hide();
-    $(".experience").hide();
-    $(".portfolio").hide();
-    $(".contact").hide();*/
-}
