@@ -32,7 +32,7 @@ window.onload=function(){
 
     // enable autoscroll
     $( '#arrows').on( 'click', function(e){
-        var elmnt = document.getElementById("experience-div");
+        var elmnt = document.getElementById("portfolio-div");
         elmnt.scrollIntoView({behavior: "smooth"});
     });
 

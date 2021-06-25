@@ -26,7 +26,7 @@ body {
     height: 100vh;
     font-size: 1.5em;
     width: 100%;
-    background-image:url("https://jdonoghue-personal.s3.amazonaws.com/pic1.jpeg");
+    background-image:url("./pic1.jpeg");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     display: flex;
@@ -323,6 +323,26 @@ body {
     margin: 5vh 5vw;
 }
 
+.portfolio-header-warbler{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.15);
+    font-size: 3.4em;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.portfolio-header-warbler:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+
 .portfolio-header{
     width: 100%;
     height: 100%;
@@ -354,7 +374,8 @@ body {
 #aptitune{
     border: 1px solid #ffa500;
     box-shadow: 5px 10px #ffa500;
-    background-image: url('https://media.giphy.com/media/SY8UzbFOPBnPkutGn1/giphy.gif');
+   /*background-image: url('https://media.giphy.com/media/SY8UzbFOPBnPkutGn1/giphy.gif');*/
+    background-image: url('./warbler.jpg');
     background-size: 39vw 35vh;
 }
 
