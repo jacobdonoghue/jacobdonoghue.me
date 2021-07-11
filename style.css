@@ -431,7 +431,7 @@ body {
 .modal-body{
     width: 70vw;
     height: 70vh;
-    margin: 15vw 15vh;
+    margin: 15vh 15vw;
     border-radius: 30px;
     background-color: white;
 }
